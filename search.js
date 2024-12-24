@@ -1,28 +1,27 @@
-
 function handleSearch() {
     const searchQuery = document.querySelector('.search-bar input[name="search"]').value.trim();
-    const url_format = "/ContentPage/Format_ContentPage.html";
+    const url_format = "./ContentPage/Format_ContentPage.html";
     const topics = [
-        { query: "วิธีการคำนวณภาษีเบื้องต้น", url:url_format ,section:"Finance",detail:"tax"},
-        { query: "มือใหม่เริ่มลงทุน", url:url_format,section:"Finance",detail:"invest" },
-        { query: "การปฐมพยาบาลเบื้องต้น", url:url_format,section:"Healthy",detail:"FirstAid" },
-        { query: "วิธีการจัดการความเครียด", url:url_format,section:"Healthy",detail:"Stress" },
-        { query: "อวัยวะเหล่านี้กลัวอะไร?", url:url_format,section:"Healthy",detail:"Organ" },
-        { query: "สุขภาพผิวดี ทำได้ง่ายๆ", url:url_format,section:"Healthy",detail:"SkinHealth" },
-        { query: "ทักษะในการเขียนอีเมลเบื้องต้นในภาษาอังกฤษ", url:url_format,section:"Communication",detail:"WriteEmail" },
-        { query: "สำนวนภาษาอังกฤษน่ารู้", url:url_format,section:"Communication",detail:"Vocab" },
-        { query: "เทคนิคการพูดจาโน้มน้าวใจ", url:url_format,section:"Communication",detail:"HowtoSpeak" },
-        { query: "มารยาทตามหลักสากล", url:url_format,section:"Socializing",detail:"Courtesy" },
-        { query: "วิธีสร้างความมั่นใจให้คนขี้อาย", url:url_format,section:"Socializing",detail:"Social" },
-        { query: "เมนูมื้อเย็น ช่วงลดน้ำหนัก", url:url_format,section:"Food",detail:"Menu" },
-        { query: "สารอาหารที่จำเป็นต่อร่างกาย", url:url_format,section:"Food",detail:"Nutrient" },
-        { query: "กราฟคืออะไร", url:url_format,section:"Learning",detail:"GraphSum" },
-        { query: "เรียนยังไง ให้ได้ 4.00", url:url_format,section:"Learning",detail:"Grade4" },
-        { query: "เคล็ดลับการบริหารเวลา", url:url_format,section:"Manage",detail:"ManageTime"},
-        { query: "แชร์วิธีทำแพลนเที่ยว", url:url_format,section:"Manage",detail:"Plan"},
-        { query: "กฎหมายเบื้องต้น", url:url_format,section:"Other",detail:"Law"},
-        { query: "วิธีเอาตัวรอดจากแผ่นดินไหว", url:url_format,section:"Other",detail:"Earthquake" },
-        { query: "จัดกระเป๋าเดินทางไปต่างประเทศ", url:url_format,section:"Other",detail:"Prepare" }
+        { query: "วิธีการคำนวณภาษีเบื้องต้น", url: url_format, section: "Finance", detail: "tax" },
+        { query: "มือใหม่เริ่มลงทุน", url: url_format, section: "Finance", detail: "invest" },
+        { query: "การปฐมพยาบาลเบื้องต้น", url: url_format, section: "Healthy", detail: "FirstAid" },
+        { query: "วิธีการจัดการความเครียด", url: url_format, section: "Healthy", detail: "Stress" },
+        { query: "อวัยวะเหล่านี้กลัวอะไร?", url: url_format, section: "Healthy", detail: "Organ" },
+        { query: "สุขภาพผิวดี ทำได้ง่ายๆ", url: url_format, section: "Healthy", detail: "SkinHealth" },
+        { query: "ทักษะในการเขียนอีเมลเบื้องต้นในภาษาอังกฤษ", url: url_format, section: "Communication", detail: "WriteEmail" },
+        { query: "สำนวนภาษาอังกฤษน่ารู้", url: url_format, section: "Communication", detail: "Vocab" },
+        { query: "เทคนิคการพูดจาโน้มน้าวใจ", url: url_format, section: "Communication", detail: "HowtoSpeak" },
+        { query: "มารยาทตามหลักสากล", url: url_format, section: "Socializing", detail: "Courtesy" },
+        { query: "วิธีสร้างความมั่นใจให้คนขี้อาย", url: url_format, section: "Socializing", detail: "Social" },
+        { query: "เมนูมื้อเย็น ช่วงลดน้ำหนัก", url: url_format, section: "Food", detail: "Menu" },
+        { query: "สารอาหารที่จำเป็นต่อร่างกาย", url: url_format, section: "Food", detail: "Nutrient" },
+        { query: "กราฟคืออะไร", url: url_format, section: "Learning", detail: "GraphSum" },
+        { query: "เรียนยังไง ให้ได้ 4.00", url: url_format, section: "Learning", detail: "Grade4" },
+        { query: "เคล็ดลับการบริหารเวลา", url: url_format, section: "Manage", detail: "ManageTime" },
+        { query: "แชร์วิธีทำแพลนเที่ยว", url: url_format, section: "Manage", detail: "Plan" },
+        { query: "กฎหมายเบื้องต้น", url: url_format, section: "Other", detail: "Law" },
+        { query: "วิธีเอาตัวรอดจากแผ่นดินไหว", url: url_format, section: "Other", detail: "Earthquake" },
+        { query: "จัดกระเป๋าเดินทางไปต่างประเทศ", url: url_format, section: "Other", detail: "Prepare" }
 
     ];
 
@@ -49,7 +48,7 @@ function showSearchSuggestions() {
         "วิธีการจัดการความเครียด",
         "อวัยวะเหล่านี้กลัวอะไร?",
         "สุขภาพผิวดี ทำได้ง่ายๆ",
-        "ทักษะในการเขียนอีเมลเบื้องต้นในภาษาอังกฤษ", 
+        "ทักษะในการเขียนอีเมลเบื้องต้นในภาษาอังกฤษ",
         "สำนวนภาษาอังกฤษน่ารู้",
         "เทคนิคการพูดจาโน้มน้าวใจ",
         "มารยาทตามหลักสากล",
@@ -71,7 +70,7 @@ function showSearchSuggestions() {
         option.value = topic;
         datalist.appendChild(option);
     });
-    
+
 
 };
 
