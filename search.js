@@ -1,13 +1,6 @@
 function handleSearch() {
-    const searchQuery = document.querySelector('.search-bar input[name="search"]').value.trim().toLowerCase();
-
-    // ตรวจสอบว่ากำลังอยู่ในหน้า Format_ContentPage.html หรือ index.html
-    let url_format;
-    if (window.location.pathname.includes('Format_ContentPage.html')) {
-        url_format = "../Format_ContentPage.html"; // จากหน้า Format_ContentPage.html ใช้ relative path
-    } else {
-        url_format = "/ContentPage/Format_ContentPage.html"; // จากหน้า index.html ใช้ absolute path
-    }
+    const searchQuery = document.querySelector('.search-bar input[name="search"]').value.trim();
+    const url_format = "./ContentPage/Format_ContentPage.html";
     const topics = [
         { query: "วิธีการคำนวณภาษีเบื้องต้น", url: url_format, section: "Finance", detail: "tax" },
         { query: "มือใหม่เริ่มลงทุน", url: url_format, section: "Finance", detail: "invest" },
