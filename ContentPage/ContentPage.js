@@ -78,7 +78,7 @@ var contents = [
       type: "Communication",
       detail: "WriteEmail",
       bigHead: "ทักษะในการเขียนอีเมลเบื้องต้นในภาษาอังกิด",
-      image: "/images/WriteEmail.jpg",
+      image: "../images/WriteEmail.jpg",
       body: "",
       head_h3: "มัดรวม ประโยคภาษาอังกฤษปัง ๆ สำหรับการเขียนอีเมล",
       bodyForH3:
@@ -90,7 +90,7 @@ var contents = [
       type: "Communication",
       detail: "Vocab",
       bigHead: "สำนวนภาษาอังกฤษน่ารู้ ได้ใช้บ่อยแน่!",
-      image: "/images/Vocab.jpg",
+      image: "../images/Vocab.jpg",
       body: "",
       head_h3: "จดเลย! 8 สำนวนภาษาอังกฤษในชีวิตประจำวัน",
       bodyForH3:
@@ -102,7 +102,7 @@ var contents = [
       type: "Communication",
       detail: "HowtoSpeak",
       bigHead: "เทคนิคการพูดจาโน้มน้าวใจ",
-      image: "/images/HowtoSpeak.jpg",
+      image: "../images/HowtoSpeak.jpg",
       body: "",
       head_h3: "เทคนิคการพูดจาโน้มน้าวใจ",
       bodyForH3:
@@ -115,7 +115,7 @@ var contents = [
       type: "Socializing",
       detail: "Courtesy",
       bigHead: "มารยาทตามหลักสากล",
-      image: "/images/Courtesy.jpg",
+      image: "../images/Courtesy.jpg",
       body: "",
       head_h3: "13 มารยาทในสังคม ที่เราควรมี",
       bodyForH3:
@@ -127,7 +127,7 @@ var contents = [
       type: "Socializing",
       detail: "Social",
       bigHead: "วิธีสร้างความมั่นใจให้คนขี้อายกล้าเข้าสังคม",
-      image: "/images/Social.jpg",
+      image: "../images/Social.jpg",
       body: "",
       head_h3: "วิธีเข้าสังคมฉบับ คนโลกส่วนตัวสูงชอบอยู่คนเดียว!",
       bodyForH3:
@@ -140,7 +140,7 @@ var contents = [
       type: "Food",
       detail: "Menu",
       bigHead: "เมนูมื้อเย็น ช่วงลดน้ำหนัก",
-      image: "/images/Menu.jpg",
+      image: "../images/Menu.jpg",
       body: "",
       head_h3: "7 เมนูมื้อเย็น ช่วงลดน้ำหนัก 7 วัน 7 เมนู อร่อยไม่ซ้ำ !",
       bodyForH3:
@@ -153,7 +153,7 @@ var contents = [
       type: "Food",
       detail: "Nutrient",
       bigHead: "สารอาหารที่จำเป็นต่อร่างกาย",
-      image: "/images/Nutrient.jpg",
+      image: "../images/Nutrient.jpg",
       body: "",
       head_h3: "อาหาร 9 ชนิด ที่ควรกินทุกวัน !",
       bodyForH3:
@@ -178,7 +178,7 @@ var contents = [
       type: "Learning",
       detail: "Grade4",
       bigHead: "เรียนยังไง ให้ได้ 4.00",
-      image: "/images/Grade4.jpg",
+      image: "../images/Grade4.jpg",
       body: "",
       head_h3: "เรียนยังไงให้ให้ได้ 4.00 ฉบับคนขี้เกียจ",
       bodyForH3:
@@ -190,7 +190,7 @@ var contents = [
       type: "Manage",
       detail: "ManageTime",
       bigHead: "เคล็ดลับการบริหารเวลา",
-      image: "/images/ManageTime.jpg",
+      image: "../images/ManageTime.jpg",
       body: "",
       head_h3: "ฮาวทู จัดการงานท่วมหัว !!",
       bodyForH3:
@@ -204,7 +204,7 @@ var contents = [
       type: "Manage",
       detail: "Plan",
       bigHead: "แชร์วิธีทำแพลนเที่ยว",
-      image: "/images/Plan.jpg",
+      image: "../images/Plan.jpg",
       body: "",
       head_h3: "วิธีการทำแพลนเที่ยว ฉบับเข้าใจง่าย ไม่ปวดหัว",
       bodyForH3:
@@ -216,7 +216,7 @@ var contents = [
       type: "Other",
       detail: "Law",
       bigHead: "กฎหมายเบื้องต้น",
-      image: "/images/Law.jpg",
+      image: "../images/Law.jpg",
       body: "",
       head_h3: "กฎหมายที่ควรรู้ที่เกี่ยวข้องในชีวิตประจำวัน",
       bodyForH3:
@@ -229,7 +229,7 @@ var contents = [
       type: "Other",
       detail: "Earthquake",
       bigHead: "วิธีเอาตัวรอดจากแผ่นดินไหว",
-      image: "/images/Earthquake.jpg",
+      image: "../images/Earthquake.jpg",
       body: "",
       head_h3: "10 วิธีเอาตัวรอดจากแผ่นดินไหว !",
       bodyForH3:
@@ -241,7 +241,7 @@ var contents = [
       type: "Other",
       detail: "Prepare",
       bigHead: "จัดกระเป๋าเดินทางไปต่างประเทศ",
-      image: "/images/Prepare.jpg",
+      image: "../images/Prepare.jpg",
       body: "",
       head_h3: "เทคนิคการจัดกระเป๋าไปต่างประเทศ",
       bodyForH3:
