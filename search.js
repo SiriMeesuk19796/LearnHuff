@@ -1,7 +1,7 @@
 
 function handleSearch() {
     const searchQuery = document.querySelector('.search-bar input[name="search"]').value.trim();
-    const url_format = "/ContentPage/Format_ContentPage.html";
+    const url_format = "ContentPage/Format_ContentPage.html";
     const topics = [
         { query: "วิธีการคำนวณภาษีเบื้องต้น", url:url_format ,section:"Finance",detail:"tax"},
         { query: "มือใหม่เริ่มลงทุน", url:url_format,section:"Finance",detail:"invest" },
